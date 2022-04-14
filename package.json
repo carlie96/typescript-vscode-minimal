@@ -1,0 +1,14 @@
+{
+  "name": "typescript-vscode-minimal",
+  "version": "1.0.0",
+  "description": "Minimal typescript project skeleton with working vscode debugger",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only ./src/main.ts"
+  },
+  "keywords": ["ts-node-dev", "typescript with vscode debugger"],
+  "author": "Carlie Yew",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
